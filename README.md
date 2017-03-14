@@ -1,4 +1,4 @@
-# Stream Data Ingestion Workshop
+# BTS - Stream Data Ingestion Workshop
 
 This is an exemple for the hands on session for SIGLibre.
 
@@ -7,7 +7,6 @@ We will create together a project in Spring integration framework to collect GEO
 
 ### Set Up your development environment
 
- - Open VirtualBOX and run the VM.
  - Run STS: 
 
 	$> ./STS/sts-bundle/sts-3.7.3.RELEASE/STS
@@ -21,7 +20,7 @@ We will create together a project in Spring integration framework to collect GEO
 
 Clone this project in your terminal or Git Shell:
 
-	$ git clone https://github.com/djkram/siglibre-si-workshop.git
+	$ git clone https://github.com/djkram/bts-ingestion-mongo
 
 Clone using STS:
 
@@ -29,7 +28,7 @@ Clone using STS:
 
 ### Explore the the application
 
-Open the siglibre-si-workshop on your STS
+Open the https://github.com/djkram/bts-ingestion-mongo on your STS
 
 ![Dev App](img/env-dev.png)
 
@@ -170,7 +169,7 @@ Put Other "expresion" to see the User Location.
 ### Step 2: Create a new Inbound to get Geo data
 
 Reference:
-- [http://docs.spring.io/spring-integration/reference/html/messaging-channels-section.html](- http://docs.spring.io/spring-integration/reference/html/messaging-channels-section.html)
+- [http://docs.spring.io/spring-integration/reference/html/messaging-channels-section.html](http://docs.spring.io/spring-integration/reference/html/messaging-channels-section.html)
 
 Disable the last Inbound: 
 
