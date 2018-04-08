@@ -264,8 +264,8 @@ Check data loading in MongoDB
 
 - Modify this project tget data from files:
 
-- Download this dataset (All Tweets in Catalunya on 2014 [6GB])
+- Download this dataset:
 	
-	wget https://s3-eu-west-1.amazonaws.com/eurecat-dataset-historic/twitter/eurecat-bts-dataset-twitter-2015.tar.gz
+	wget  https://ckannet-storage.commondatastorage.googleapis.com/2015-07-09T02:10:43.036Z/cache-0-json.gz
 
 - File endpoint Reference (outbound): [http://docs.spring.io/spring-integration/reference/htmlsingle/#file-reading](http://docs.spring.io/spring-integration/reference/htmlsingle/#file-reading)
